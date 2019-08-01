@@ -7,7 +7,7 @@ app.get('/assets',function(req,res){
   res.sendFile(__dirname+'/dist/assets');
 });
 app.get('/*',function(req,res){
-  res.sendFile(__dirname+'/index.html');
+  res.sendFile(__dirname+'/dist/index.html');
 });
 
 var port = process.env.port || 8080;
