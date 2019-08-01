@@ -2,12 +2,12 @@ var express = require('express');
 
 var app=express();
 
-app.use(express.static(__dirname +'/dist'));
+app.use(express.static(__dirname +'/dist/simpleqdro'));
 app.get('/assets',function(req,res){
-  res.sendFile(__dirname+'/dist/assets');
+  res.sendFile(__dirname+'/dist/simpleqdro/assets');
 });
 app.get('/*',function(req,res){
-  res.sendFile(__dirname+'/dist/index.html');
+  res.sendFile(path.join(__dirname+'/dist/simpleqdro/index.html')
 });
 
 var port = process.env.port || 8080;
