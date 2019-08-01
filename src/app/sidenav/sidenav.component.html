@@ -1,0 +1,38 @@
+<mat-sidenav-container fullscreen>
+  <mat-sidenav #sidenav mode="over">
+      <div class="menu-div" style="display: flex;justify-content: space-between;align-items:center;">
+        <p class="ubuntu-b menu">Menu</p>
+        <img src="../../assets/cancel.svg" (click)="sidenav.toggle()">
+      </div>
+      <div class="hr"></div>
+      <div class="menu-list">
+        <p><a [routerLink]="['']" (click)="sidenav.toggle()">Home</a></p>
+        <p><a href="#" (click)="sidenav.toggle()">Blog</a></p>
+        <p><a href="#" (click)="sidenav.toggle()">Help</a></p>
+        <p><a href="#" (click)="sidenav.toggle()">Search Plans</a></p>
+      </div>
+      <div class="hr hr2"></div>
+      <div class="menu-list">
+          <p><a href="#" (click)="sidenav.toggle()">Case</a></p>
+          <p><a href="#" (click)="sidenav.toggle()">Account</a></p>
+          <p><a href="#" (click)="sidenav.toggle()">Log Out</a></p>
+        </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar class="mat-toolbar-bg">
+        <img src="../../assets/circle-t.png" style="width:44px;height:22px;margin-left:-8px;" (click)="sidenav.toggle();">
+      <div style="color:white;" class="title">
+        <div style="display: flex;flex-direction: row;justify-content: start" class="flex">
+            <!-- <p class="flex1">Simple</p>
+            <div class="flex2"></div>
+            <p class="flex3 blue">QDRO</p> -->
+            <img src="../../assets/logo2.png" style="width:167px;height:40px">
+        </div>
+      </div>
+      <img src="../../assets/user-t.png" style="width:30px;height:30px;">
+    </mat-toolbar>
+    <div class="main-content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

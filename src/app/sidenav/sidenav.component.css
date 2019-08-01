@@ -1,0 +1,102 @@
+mat-sidenav{
+  width: 250px;
+}
+
+.mat-drawer{
+  background-color: rgb(11, 55, 99);
+  color: rgb(11, 55, 99)
+}
+
+.mat-toolbar-bg{
+  background-color: rgb(11, 55, 99)
+}
+
+.mat-icon-button{
+  background: none;
+  color: white;
+}
+
+.left-icon{
+  margin-left: -17px;
+}
+
+.right-icon{
+  margin-right: -5px;
+}
+
+.material-icons{
+  font-size: 36px;
+}
+
+mat-sidenav{
+  color: white !important;
+}
+
+.mat-drawer-shown .mat-drawer-backdrop{
+  color: none;
+  background-color: none !important;
+}
+
+.title{
+  margin: 0px auto;
+}
+
+
+.flex > .flex2{
+  background-color: rgb(200, 166, 111) !important;
+  /* color: rgb(249, 198, 133) !important; */
+  width: 3px;
+  margin: 23px 3px;
+}
+
+.flex > .flex1{
+  font-size: 25px;
+  font-family: "Ubuntu-b";
+  color: white !important;
+}
+
+.flex > .flex3{
+  font-size: 25px;
+  font-family: none;
+  font-weight: bold;
+}
+
+.menu{
+  color:rgb(200, 166, 111) !important;
+}
+
+.menu-div{
+  margin-top: -11px;
+  padding: 15px;
+}
+.menu-div > img {
+  width: 30px;
+  height: 30px;
+}
+
+.hr{
+  width: 100%;
+  margin: 0px;
+  height: 1px;
+  background-color: rgb(200, 166, 111);
+  margin-top: -15px;
+}
+
+.menu-list > p {
+  margin-left:15px;
+  color: white;
+}
+
+.menu-list{
+  margin-top: 30px;
+}
+
+.menu-list > p > a{
+  text-decoration: none;
+  color:white;
+}
+
+
+.hr2{
+  margin-top:40px;
+}

@@ -1,0 +1,93 @@
+<div class="flex-align-center">
+    <p class="blue center main-text">George Black & Helen White</p>
+    <img src="../../assets/pencil.png" class="pencil">
+</div>
+
+<p class="center status"><span>Status:</span> Pending Submission</p>
+
+<p class="center steps">Please complete these 5 steps:</p>
+
+<mat-card class="mat-elevation-z5">
+  <mat-card-content class="mt-content" >
+    <div class="card-content" id="card-content">
+        <p class="ubuntu-b">
+          <span class="blue ubuntu-b">1.</span>General
+        </p>
+        <div style="display: flex;margin-top:-4px">
+            <p class="percent blue ubuntu-l">55%</p>
+            <div>
+                <a [routerLink]="['general']"><img src="../../assets/chev.svg"></a>
+            </div>
+        </div>
+    </div>
+    <span class="blue incomplete">Incomplete:</span>
+    <div>
+      <p>- Date of marriage</p>
+      <p>- Date of divorce</p>
+    </div>
+  </mat-card-content>
+</mat-card>
+<br>
+<mat-card class="mat-elevation-z5 card-margin-top">
+  <mat-card-content class="mt-content">
+      <div class="card-content cd-h">
+          <p class="ubuntu-b">
+            <span class="blue ubuntu-b">2.</span> George Black
+          </p>
+          <div style="display: flex">
+              <p class="percent blue">0%</p>
+              <div>
+                  <img src="../../assets/chev.svg">
+              </div>
+          </div>
+      </div>
+  </mat-card-content>
+</mat-card>
+
+<br>
+
+<mat-card class="mat-elevation-z5 card-margin-top">
+    <mat-card-content class="mt-content">
+        <div class="card-content cd-h">
+            <p class="ubuntu-b">
+              <span class="blue ubuntu-b">3.</span> Helen White
+            </p>
+            <div style="display: flex">
+                <p class="percent blue">0%</p>
+                <div>
+                    <img src="../../assets/chev.svg">
+                </div>
+            </div>
+        </div>
+    </mat-card-content>
+  </mat-card>
+  <br>
+
+  <mat-card class="mat-elevation-z5 card-margin-top">
+      <mat-card-content class="mt-content">
+          <div class="card-content" id="card-content">
+              <p class="ubuntu-b">
+                <span class="blue ubuntu-b">4.</span> Retirement Accounts
+              </p>
+              <div style="display: flex">
+                  <p class="percent blue">2</p>
+                  <div>
+                      <img src="../../assets/chev.svg">
+                  </div>
+              </div>
+          </div>
+          <span class="blue incomplete">Incomplete:</span>
+          <p class="blue incomplete motors">General Motors Saving Retirement Plan:</p>
+          <div class="info">
+              <p class="ac-no">- Account Number</p>
+          </div>
+      </mat-card-content>
+    </mat-card>
+
+  <mat-card id="footer">
+    <div style="display: flex;justify-content: space-around">
+        <button mat-raised-button class="bg-dark-blue btn-doc" style="color:rgb(22, 133, 211)">Document</button>
+        <div></div>
+        <button mat-raised-button class="btn-sub blue">Submit</button>
+    </div>
+  </mat-card>

@@ -1,0 +1,64 @@
+.general-main{
+  margin: 0px !important;
+  /* width: 100%; */
+  height: 100%;
+  padding: 10px;
+  background-color: rgb(217, 239, 250)
+}
+
+.first-text{
+  margin-top: 0px;
+  font-size: 17px;
+}
+
+.inner-general-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0px;
+  align-items: center;
+  margin: 0px 13px;
+}
+
+.inner-general-div p {
+  padding-top: 15px;
+}
+
+mat-label{
+  margin: 5px 12px;
+}
+
+::ng-deep .mat-select-content{
+  background-color: red;
+  font-size: 1.5em;
+  width: 100%;
+}
+
+select{
+  width: 90%;
+  margin-left: 10px;
+  background-color: white;
+  padding: 12px 10px;
+  background-color: white;
+}
+option{
+  width: 80%;
+}
+
+.second{
+  margin-top: -19px;
+}
+
+
+.inner-general-div img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.select-one{
+  font-family: "ubuntu-l" !important;
+  font-weight: bold;
+}
+
+
