@@ -108,8 +108,26 @@ mat-radio-group{
   padding:12px !important;
 }
 
+.mat-datepicker-toggle-default-icon{
+  width: 30px !important;
+  margin-left: -72px;
+}
 .select-form-field > div > div > .mat-form-field-infix > .mat-form-field-label-wrapper > .mat-form-field-label {
   padding-top: 5px !important;
+}
+
+.mat-button-focus-overlay, .mat-button-ripple.mat-ripple{
+  left: 40px !important;
+  right: 40px !important;
+  bottom: 100px !important;
+}
+.datepicker > div > div > .mat-form-field-infix > .mat-form-field-label-wrapper > .mat-form-field-label {
+  margin-left: 12px;
+  margin-top: 4px;
+}
+
+.datepicker > div > .mat-form-field-flex {
+  width: 110%;
 }
 
 .select-form-field > div >  .mat-form-field-underline {
@@ -158,6 +176,15 @@ mat-hint{
   padding:12px !important;
 }
 
+
+.textarea{
+  margin-left: 16px !important;
+    background-color: white !important;
+    padding: 10px !important;
+    width: 85% !important;
+    border: solid 1px rgb(11, 55, 99) !important;
+    border-radius: 4px !important;
+}
 
 
 /* .mat-select-arrow{
@@ -237,6 +264,16 @@ mat-radio-group{
 .eighth-input > .mat-form-field-wrapper{
   margin-top: -13px;
 }
+
+.ninth{
+  margin-top: -20px !important;
+}
+
+.ninth-input > .mat-form-field-wrapper {
+  margin-top: -12px;
+}
+
+
 .select-form-field > .mat-form-field-wrapper {
   margin-left: 10px;
 }
@@ -246,4 +283,29 @@ mat-radio-group{
   margin-left: 12px;
 }
 
+.datepicker > div > div > .mat-form-field-infix {
+  margin-left: 12px;
+}
+
+.datepicker > div > .mat-form-field-underline {
+  display: none;
+}
+
+.datepicker > div > div > .mat-form-field-infix{
+  background-color: #fff;
+  border: solid 1px rgb(22, 133, 211);
+  border-radius: 4px;
+  padding: 12px !important;
+}
+
+
+.upload-file-btn{
+  margin-left: 14px !important;
+  width: 91% !important;
+  height: 50px !important;
+  background-color: rgb(0,133,211) !important;
+  font-family: "ubuntu-l" !important;
+  font-size: 16px !important;
+  color: white !important;
+}
 

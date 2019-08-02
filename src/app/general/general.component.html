@@ -166,6 +166,75 @@
     Email is <strong>required</strong>
   </mat-error>
 </mat-form-field>
+
+<div class="inner-general-div ninth">
+    <p class="ubuntu-b first-text"><span class="blue">9.</span>Assigned judge</p>
+    <!-- <img src="../../assets/chev-question.png"> -->
+</div>
+
+<mat-form-field class="example-full-width input-form-field ninth-input">
+  <input matInput placeholder="Judge's Name" class="input">
+  <!-- <mat-hint>i.e. Circuit Court of Jefferson Country</mat-hint> -->
+  <mat-error>
+    Please enter a valid email address
+  </mat-error>
+  <mat-error>
+    Email is <strong>required</strong>
+  </mat-error>
+</mat-form-field>
+
+<div class="inner-general-div ninth">
+    <p class="ubuntu-b first-text"><span class="blue">10.</span> Date of marriage</p>
+    <!-- <img src="../../assets/chev-question.png"> -->
+</div>
+
+<mat-form-field class="datepicker" [floatLabel]="'never'">
+    <input matInput [matDatepicker]="dp3" placeholder="mm/dd/yyyy" disabled>
+    <mat-datepicker-toggle matSuffix [for]="dp3"></mat-datepicker-toggle>
+    <mat-datepicker #dp3 disabled="false"></mat-datepicker>
+  </mat-form-field>
+
+  <div class="inner-general-div ninth">
+      <p class="ubuntu-b first-text"><span class="blue">11.</span> Date of marriage</p>
+      <!-- <img src="../../assets/chev-question.png"> -->
+  </div>
+
+  <mat-form-field class="datepicker" [floatLabel]="'never'">
+      <input matInput [matDatepicker]="dp4" placeholder="mm/dd/yyyy" disabled>
+      <mat-datepicker-toggle matSuffix [for]="dp4"></mat-datepicker-toggle>
+      <mat-datepicker #dp4 disabled="false"></mat-datepicker>
+    </mat-form-field>
+
+    <div class="inner-general-div ninth">
+        <p class="ubuntu-b first-text"><span class="blue">12.</span> Upload Settlement Agreement</p>
+        <!-- <img src="../../assets/chev-question.png"> -->
+    </div>
+
+    <button mat-raised-button class="bg-dark-blue btn-doc upload-file-btn" style="color:rgb(22, 133, 211)">Upload File</button>
+
+    <div class="inner-general-div">
+        <p class="ubuntu-b first-text"><span class="blue">13.</span> Upload Final Judgement and Decree</p>
+        <!-- <img src="../../assets/chev-question.png"> -->
+    </div>
+
+    <button mat-raised-button class="bg-dark-blue btn-doc upload-file-btn" style="color:rgb(22, 133, 211)">Upload File</button>
+
+    <div class="inner-general-div">
+        <p class="ubuntu-b first-text"><span class="blue">14.</span> Additional Notes</p>
+        <!-- <img src="../../assets/chev-question.png"> -->
+    </div>
+
+    <p style="margin-left: 17px;margin-top: -8px;">Share any additional info about your case</p>
+
+    <textarea matInput rows=6 class="textarea"></textarea>
+
+    <div class="inner-general-div">
+        <p class="ubuntu-b first-text"><span class="blue">15.</span> Upload any additional documents revelant to your case</p>
+        <!-- <img src="../../assets/chev-question.png"> -->
+    </div>
+
+    <button mat-raised-button class="bg-dark-blue btn-doc upload-file-btn" style="color:rgb(22, 133, 211)">Upload File</button>
+
   </form>
 </div>
 

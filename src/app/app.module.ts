@@ -14,7 +14,9 @@ import { HomeContentComponent } from './home-content/home-content.component';
 import { GeneralComponent } from './general/general.component';
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
-import {MatRadioModule} from '@angular/material/radio'
+import {MatRadioModule} from '@angular/material/radio';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatNativeDateModule} from '@angular/material'
 
 @NgModule({
   declarations: [
@@ -34,9 +36,11 @@ import {MatRadioModule} from '@angular/material/radio'
     MatSelectModule,
     MatInputModule,
     MatRadioModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [MatDatepickerModule],
   bootstrap: [HomeComponent]
 })
 export class AppModule { }
